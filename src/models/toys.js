@@ -10,7 +10,7 @@ const toy3 = {
     name: 'Pokemon: The First Movie',
     img: 'https://flxt.tmsimg.com/assets/p24225_v_h8_ab.jpg',
 }
-const toy4 = {
+const toy6 = {
     name: "Transformers",
     img: 'https://wegotthiscovered.com/wp-content/uploads/2022/06/Transformers.jpg'
 }
@@ -18,7 +18,7 @@ const toy5 = {
     name: 'Dungeon and Dragons Honor Among Thieves',
     img: 'https://www.paramountmovies.com/uploads/movies/dungeons-dragons-honor-among-thieves/dnd-pmshare-1200x630-c.jpg'
 }
-const toy6 = {
+const toy4 = {
     name: 'Trolls',
     img: 'https://filmmusiccentral.files.wordpress.com/2020/01/trolls.jpg?w=1200',
 }

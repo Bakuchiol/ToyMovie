@@ -10,11 +10,13 @@ function App() {
       {/* Mock Netflux page with pics */}
       <div className='header'>netFlux</div>
       <div><Main/></div>
-      <div className='carousel'>
-        {toys.map((list,i) => {
-          return <Characters key={i} list={list}/>
-        }
-        )}
+      <div className='bottom'>
+        <div className='carousel'>
+          {toys.map((list,i) => {
+            return <Characters key={i} list={list}/>
+          }
+          )}
+        </div>
       </div>
     </div>
   );
