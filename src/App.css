@@ -6,6 +6,40 @@
   height: 40vmin;
   pointer-events: none;
 }
+/*************************************/
+.mainTop {
+  background-image: url(https://occ-0-778-300.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRMbPWSHyU3KEW1FgPNUJRb7iMqgEOuABSiW9lWBK6JB0Nv0mwFwzcXicUfy0w5899x32XHBIoshgSoRgj7bk6ShyoSWPuR9E5G-.jpg?r=34a);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+/* synopsis */
+.synopsis {
+  width: 350px;
+  text-align: left;
+}
+
+/* smoll */
+.carousel {
+  display: flex;
+  gap: 15px;
+  padding-top: 30px;
+  padding-left: 25px;
+  background-color: rgb(33, 31, 31);
+}
+.smallPosters {
+  height: 200px;
+  width: auto;
+}
+
+
+
+/*************************************/
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

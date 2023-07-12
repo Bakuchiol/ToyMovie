@@ -2,13 +2,15 @@
 import './App.css';
 import Characters from './components/Characters';
 import toys from './models/toys';
+import Main from './components/Main';
 
 function App() {
   return (
     <div className="App">
-      {/* Mock E-Bay page with pics */}
-      <div className='header'>EBAY</div>
-      <div>
+      {/* Mock Netflux page with pics */}
+      <div className='header'>netFlux</div>
+      <div><Main/></div>
+      <div className='carousel'>
         {toys.map((list,i) => {
           return <Characters key={i} list={list}/>
         }
