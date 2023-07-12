@@ -7,17 +7,27 @@
   pointer-events: none;
 }
 /*************************************/
-/* header */
-.header{
-  background-color: #282c34;
-  height: 40px;
+.App > h1 {
+  position: absolute;
+  color: whitesmoke;
+  margin-left: 20px;
 }
+/* header */
+/* .header{
+  border: solid green;
+  background-image: url('https://seeklogo.com/images/T/Toy_Biz-logo-4D76BE0E74-seeklogo.com.png');
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+} */
 /* top */
 .mainTop {
-  background-image: url(https://occ-0-778-300.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRMbPWSHyU3KEW1FgPNUJRb7iMqgEOuABSiW9lWBK6JB0Nv0mwFwzcXicUfy0w5899x32XHBIoshgSoRgj7bk6ShyoSWPuR9E5G-.jpg?r=34a);
+  background-image: url('https://occ-0-778-300.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRMbPWSHyU3KEW1FgPNUJRb7iMqgEOuABSiW9lWBK6JB0Nv0mwFwzcXicUfy0w5899x32XHBIoshgSoRgj7bk6ShyoSWPuR9E5G-.jpg?r=34a');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   height: 600px;
   display: flex;
   align-items: center;
@@ -49,13 +59,31 @@
   /* flex-wrap:wrap; */
   overflow:hidden;
   width: 100%;
-  padding-top: 30px;
+  padding-top: 40px;
   background-color: rgb(33, 31, 31);
 }
 .smallPosters {
   height: 175px;
   width: 325px;
 }
+
+.titleBox{
+  /* border: solid lime; */
+  position: absolute;
+  margin-top: -175px;
+  width: 325px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  color: rgb(33, 31, 31);
+  text-align: center;
+}
+.titleBox:hover {
+  color: whitesmoke;
+}
+
 
 .bottom {
   /* border: solid lime; */
@@ -78,7 +106,7 @@ button {
   background-color: whitesmoke;
 }
 .btn2 {
-  background-color: rgb(159, 156, 156);
+  background-color: rgb(126, 121, 121);
   color: whitesmoke;
 }
 
